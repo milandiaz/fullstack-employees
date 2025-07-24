@@ -1,4 +1,5 @@
 /** @returns the employee created according to the provided details */
+import db from "#db/client";
 export async function createEmployee({ name, birthday, salary }) {
   // TODO
   const sql = `
